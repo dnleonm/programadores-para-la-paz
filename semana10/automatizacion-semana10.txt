@@ -1,0 +1,33 @@
+Automatización propuesta
+
+Evento
+
+Se registra una nueva solicitud ciudadana en la plataforma.
+
+--------------------------------------------------
+
+Flujo
+
+Node.js envía la información a n8n.
+
+n8n procesa la solicitud.
+
+Se genera una notificación para Telegram.
+
+--------------------------------------------------
+
+Mensaje enviado
+
+"Nueva solicitud ciudadana registrada. Ingrese al sistema para revisarla."
+
+--------------------------------------------------
+
+Información que NO debe enviarse
+
+- Nombre completo.
+- Documento de identidad.
+- Dirección.
+- Teléfono.
+- Correo electrónico.
+- Datos sensibles.
+- Claves o credenciales.

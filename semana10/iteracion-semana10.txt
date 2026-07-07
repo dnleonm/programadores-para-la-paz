@@ -1,0 +1,21 @@
+Iteración 1
+
+Las dos primeras tareas que desarrollaría serían:
+
+1. Permitir registrar una incidencia ciudadana.
+2. Enviar una notificación al equipo mediante Telegram.
+
+¿Por qué?
+
+Porque permiten iniciar el flujo principal del sistema y facilitan que el equipo conozca rápidamente la existencia de una nueva solicitud.
+
+--------------------------------------------------
+
+Definición de terminado
+
+Una tarea se considera terminada cuando:
+
+- Funciona correctamente.
+- Fue probada sin errores.
+- Quedó registrada en Git mediante un commit.
+- Cuenta con la documentación correspondiente.
