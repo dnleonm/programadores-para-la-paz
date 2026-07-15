@@ -1,0 +1,24 @@
+Automatización propuesta
+
+Evento que activa la automatización:
+
+Se registra una nueva causa comunitaria en la plataforma.
+
+Acción:
+
+Un flujo de n8n detecta el nuevo registro y envía automáticamente una notificación a un grupo de Telegram utilizado por el equipo coordinador.
+
+Mensaje enviado:
+
+"Nueva causa comunitaria registrada en Petición en 3 Clics. Ingresa a la plataforma para revisar la información y realizar el seguimiento correspondiente."
+
+Información que NO debe enviarse:
+
+- Cédulas.
+- Teléfonos.
+- Direcciones.
+- Correos electrónicos reales.
+- Comentarios con información sensible.
+- Datos personales de los participantes.
+
+La automatización debe utilizar únicamente la información necesaria para informar que ocurrió un nuevo evento, respetando siempre la privacidad de la comunidad y promoviendo un uso responsable de la tecnología.

@@ -1,0 +1,29 @@
+Entidad: Causa
+
+Campos principales:
+
+- id
+- titulo
+- descripcion
+- fecha_creacion
+- estado
+
+Propósito:
+
+Almacenar la información principal de cada causa comunitaria para permitir su consulta, seguimiento y generación de documentos.
+
+------------------------------------------------------------
+
+Entidad: Apoyo
+
+Campos principales:
+
+- id
+- causa_id
+- nombre
+- comentario
+- fecha
+
+Propósito:
+
+Registrar los apoyos realizados por la comunidad hacia una causa específica, permitiendo llevar un conteo de participación y generar evidencia organizada para el documento PDF.

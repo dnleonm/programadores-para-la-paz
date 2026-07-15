@@ -1,0 +1,13 @@
+Flujo del sistema "Petición en 3 Clics"
+
+1. Un ciudadano ingresa a la plataforma y registra una nueva causa comunitaria mediante un formulario con el título y la descripción del problema.
+
+2. La información de la causa se almacena en la base de datos SQLite para que pueda ser consultada posteriormente.
+
+3. Otros ciudadanos pueden visualizar la causa y registrar su apoyo utilizando un nombre de práctica y, si lo desean, agregar un comentario.
+
+4. Cada apoyo queda registrado en la base de datos y el sistema actualiza automáticamente el contador de apoyos, mostrando también los comentarios asociados.
+
+5. Cuando se requiere compartir la información, el usuario puede generar un documento PDF con la causa, el número de apoyos, los comentarios registrados y una advertencia jurídica de uso pedagógico.
+
+6. De manera opcional, una automatización mediante n8n o Telegram puede enviar una notificación al equipo responsable indicando que se registró una nueva causa o que se generó un nuevo documento para seguimiento.
